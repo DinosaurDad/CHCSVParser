@@ -12,10 +12,10 @@ let package = Package(
         .target(
             name: "CHCSVParser",
             dependencies: [],
-            path: "CHCSVParser/CHCSVParser/.",
+            path: ".",
             exclude: ["Unit Tests"],
-            sources: ["CHCSVParser.h",
-                      "CHCSVParser.m"],
+            sources: ["CHCSVParser/CHCSVParser/CHCSVParser.h",
+                      "CHCSVParser/CHCSVParser/CHCSVParser.m"],
             publicHeadersPath: "include"
         )
     ]
