@@ -13,7 +13,7 @@ let package = Package(
             name: "CHCSVParser",
             dependencies: [],
             path: "CHCSVParser/CHCSVParser",
-            exclude: ["CHCSVParserOptions.swift"],
+            exclude: ["CHCSVParserOptions.swift"]
         )
     ]
 )
